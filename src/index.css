@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   a {
+      @apply text-my-blue-400 hover:text-my-blue-600 hover:underline;
+   }
+}
+
+@layer components {
+   .btn-light {
+      @apply bg-my-blue-400 text-white hover:bg-my-blue-600;
+   }
+   .btn-dark {
+      @apply bg-white text-my-gray-950 hover:bg-my-gray-300;
+   }
+}
+
+@layer utilities {
+   .light-bg {
+      @apply bg-white;
+   }
+   .light-text {
+      @apply text-my-gray-950;
+   }
+   .dark-bg {
+      @apply bg-my-gray-950;
+   }
+   .dark-text {
+      @apply text-my-gray-300;
+   }
+}
