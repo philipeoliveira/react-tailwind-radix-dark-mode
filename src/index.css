@@ -8,15 +8,6 @@
    }
 }
 
-@layer components {
-   .btn-light {
-      @apply bg-my-blue-400 text-white hover:bg-my-blue-600;
-   }
-   .btn-dark {
-      @apply bg-white text-my-gray-950 hover:bg-my-gray-300;
-   }
-}
-
 @layer utilities {
    .light-bg {
       @apply bg-white;
@@ -30,4 +21,9 @@
    .dark-text {
       @apply text-my-gray-300;
    }
+}
+
+/* Switch do Radix */
+.SwitchThumb[data-state='checked'] {
+   @apply translate-x-[22px];
 }
