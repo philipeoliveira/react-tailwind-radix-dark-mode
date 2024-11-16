@@ -1,4 +1,5 @@
 import * as Switch from '@radix-ui/react-switch';
+import './RadixSwitchStyle.css';
 import { twMerge } from 'tailwind-merge';
 import { MoonStar } from 'lucide-react';
 import { Sun } from 'lucide-react';
