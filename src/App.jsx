@@ -1,4 +1,5 @@
 import { ThemeToggle } from './components/ThemeToggle';
+import { ExternalLink } from 'lucide-react';
 
 export default function App() {
    return (
@@ -11,14 +12,16 @@ export default function App() {
          </main>
 
          <footer>
-            <p className='light-text dark:dark-text text-sm p-4'>
+            <p className='flex gap-1 light-text dark:dark-text text-sm p-4'>
                Desenvolvido por{' '}
                <a
                   href='https://github.com/philipeoliveira'
                   title='Abrir em nova aba o GitHub do autor Philipe Oliveira'
                   target='_blank'
+                  className='flex gap-1'
                >
                   Philipe Oliveira
+                  <ExternalLink strokeWidth={1.5} size={16} />
                </a>
             </p>
          </footer>
