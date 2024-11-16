@@ -22,8 +22,3 @@
       @apply text-my-gray-300;
    }
 }
-
-/* Switch do Radix */
-.SwitchThumb[data-state='checked'] {
-   @apply translate-x-[22px];
-}

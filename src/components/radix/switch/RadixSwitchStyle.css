@@ -1,0 +1,3 @@
+.SwitchThumb[data-state='checked'] {
+   @apply translate-x-[22px];
+}
